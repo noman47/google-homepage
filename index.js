@@ -1,18 +1,9 @@
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showLocation);
-    } 
-    else 
-    {
-        geoButton.remove();
-    }
-}
-
-function showLocation(data) {
-    console.log(data)
-}
-
 document.addEventListener("DOMContentLoaded", () => {
-    const geoButton = document.getElementById('geoButton');
-    geoButton.addEventListener('click', getLocation);
+    const country = document.getElementById('country');
+    const endpoint = "http://ip-api.com/json/";
+
+    fetch(endpoint)
+    .then(data => data.json())
+    .then(data => {country.innerHTML = (data['country'])})
+
 });

@@ -19,15 +19,13 @@ body {
   width: 100%;
 }
 
-#geoButton {
+#geoContainer {
   position: fixed;
-  bottom: 60px;
+  bottom: 70px;
   left: 20px;
-  border-radius: 8px;
   text-align: center;
   height: 30px;
   width: 100px;
-  background: rgb(230, 255, 255);
 }
 
 hr {
