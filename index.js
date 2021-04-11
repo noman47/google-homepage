@@ -6,4 +6,20 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => data.json())
         .then(data => { country.innerHTML = (data['country']) })
 
+    const button = document.getElementById('togButton');
+    const list = document.getElementById('list');
+    let togTrack = false;
+    button.addEventListener('click', () => {
+        if (!togTrack) {
+            console.log(list)
+            list.style.display = 'block';
+            togTrack = true;
+        }
+        else if (togTrack) {
+            console.log(list)
+            list.style.display = 'none';
+            togTrack = false;
+        }
+    });
+
 });
