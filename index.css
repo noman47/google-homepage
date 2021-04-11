@@ -44,6 +44,15 @@ body {
   top: 0px;
 }
 
+#userAvatar {
+  position: relative;
+  right: 0px;
+  top: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
