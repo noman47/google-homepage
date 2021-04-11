@@ -2,6 +2,24 @@ body {
   font-family: "Open Sans";
 }
 
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+}
+
+#headerContainer {
+  position: fixed;
+  right: 0px;
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+}
+
+#userbubble {
+  position: relative;
+  top: 0px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
