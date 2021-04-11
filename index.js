@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const endpoint = "http://ip-api.com/json/";
 
     fetch(endpoint)
-        .then(data => data.json())
-        .then(data => { country.innerHTML = (data['country']) })
+    .then(data => data.json())
+    .then(data => { country.innerHTML = (data['country']) })
 
     const button = document.getElementById('togButton');
     const list = document.getElementById('list');
