@@ -4,6 +4,6 @@ A clone of the Google search page I made as an exercise of teaching myself HTML,
 
 ## Tech Stack
 
-![HTML](https://img.shields.io/badge/html-3178C6?logo=HTML&logoColor=fff&style=for-the-badge)
-![CSS](https://img.shields.io/badge/css-3178C6?logo=CSS&logoColor=fff&style=for-the-badge)
-![JS](https://img.shields.io/badge/javascript-3178C6?logo=javascript&logoColor=fff&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
